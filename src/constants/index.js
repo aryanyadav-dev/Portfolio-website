@@ -419,11 +419,11 @@ export const projects = [
   },
   {
     id: "project-3",
-    title: "BlockVerse - Blockchain Trading App",
-    github: "https://github.com/aryanyadav-dev/BlockVerse-app",
+    title: "Gamechain - Blockchain Gaming Store",
+    github: "https://github.com/aryanyadav-dev/gamechain-blockchian-gamestore",
     image: blockchain,
     content:
-      "Developed a Web 3.0 application  integrating styled components for styling, Metamask for authentication, Thirdweb SDK for creating and minting cryptocurrency tokens, and Sanity.io with GROQ for data storage and retrieval. Implement token send/receive functionality on the Blockchain",
+      "Developed a blockchain-based gaming platform inspired by Steam. It leverages blockchain technology to provide decentralized game ownership, community-driven governance, and innovative gaming experiences. The platform empowers gamers, developers, and content creators by offering features like NFT-based game ownership, play-to-earn mechanics, and a decentralized marketplace.",
     stack: [
       {
         id: "icon-1",
@@ -432,8 +432,8 @@ export const projects = [
       },
       {
         id: "icon-3",
-        icon: SiNextdotjs,
-        name: "NextJS"
+        icon: SiTailwindcss,
+        name: "TailwindCSS"
       },
       {
         id: "icon-4",
@@ -442,23 +442,18 @@ export const projects = [
       },
       {
         id: "icon-5",
-        icon: DiCss3,
-        name: "CSS"
+        icon: SiMongodb,
+        name: "MongoDB"
       },
       {
         id: "icon-6",
-        icon: SiFirebase,
-        name: "Firebase"
+        icon: SiSolidity,
+        name: "Solidity"
       },
       {
         id: "icon-6",
-        icon: SiWeb3Dotjs,
-        name: "Web3JS"
-      },
-      {
-        id: "icon-7",
-        icon: SiChartdotjs,
-        name: "ChartJS"
+        icon: SiNodedotjs,
+        name: "NodeJS"
       },
     ],
   },
