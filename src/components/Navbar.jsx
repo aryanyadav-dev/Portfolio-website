@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { close, menu, aryanyadav } from "../assets"; // Import your logo
+import { close, menu, aryanyadav } from "../assets";
 import { navLinks } from "../constants";
 
 const Navbar = () => {
@@ -7,20 +7,18 @@ const Navbar = () => {
 
   return (
     <nav className="w-full flex justify-between items-center h-[80px] px-4"> 
-      {/* Logo */}
       <a href="#home" className="flex items-center">
         <img
           src={aryanyadav}
           alt="Aryan Yadav"
           className="w-[300px] h-[180px] object-contain"
           style={{ 
-            marginLeft: "-80px", // Shift the logo to the left
-            transform: "translateY(10px)" // Move the logo down by 10px
+            marginLeft: "-80px",
+            transform: "translateY(10px)"
           }}
         />
       </a>
 
-      {/* List of links */}
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
         {navLinks.map((nav, index) => (
           <li
@@ -30,16 +28,16 @@ const Navbar = () => {
             cursor-pointer
             text-[16px]
             ${index === navLinks.length - 1 ? "mr-0" : "mr-10"}
-            text-white hover:text-teal-200`}
+            text-white hover:text-teal-200
+            relative after:absolute after:bottom-[-4px] after:left-0 after:h-[2px] after:w-0 
+            after:bg-teal-200 after:transition-all after:duration-300 hover:after:w-full`}
           >
             <a href={`#${nav.id}`}>{nav.title}</a>
           </li>
         ))}
       </ul>
 
-      {/* only for mobile devices, created separately */}
       <div className="sm:hidden flex flex-1 justify-end items-center">
-        {/* shows toggle icon based on its state */}
         <img
           src={toggle ? close : menu}
           alt="menu"
@@ -49,8 +47,8 @@ const Navbar = () => {
 
         <div
           className={`${toggle ? "flex" : "hidden"} p-6 bg-black-gradient
-        absolute top-20 right-0 mx-4 my-2
-        min-w-[140px] rounded-xl sidebar`}
+          absolute top-20 right-0 mx-4 my-2
+          min-w-[140px] rounded-xl sidebar`}
         >
           <ul className="list-none flex flex-col justify-end items-center flex-1">
             {navLinks.map((nav, index) => (
@@ -61,7 +59,9 @@ const Navbar = () => {
                 cursor-pointer
                 text-[16px]
                 ${index === navLinks.length - 1 ? "mb-0" : "mb-4"}
-                text-white`}
+                text-white
+                relative after:absolute after:bottom-[-4px] after:left-0 after:h-[2px] after:w-0 
+                after:bg-teal-200 after:transition-all after:duration-300 hover:after:w-full`}
               >
                 <a href={`#${nav.id}`}>{nav.title}</a>
               </li>
