@@ -20,6 +20,7 @@ import llm from "./llm.png";
 import linklace from "./linklace.png";
 import tis from "./tis.jpeg";
 import sih from "./sih.png";
+import api from "./api.png";
 
 export {
   quotes,
@@ -44,4 +45,5 @@ export {
   linklace,
   tis,
   sih,
+  api,
 };

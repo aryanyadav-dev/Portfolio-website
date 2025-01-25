@@ -10,6 +10,7 @@ import {
   linklace,
   sih,
   tis,
+  api,
 } from "../assets";
 
 import {
@@ -554,6 +555,46 @@ export const projects = [
   },
   {
     id: "project-6",
+    title: "API Archive Hub",
+    github: "https://github.com/aryanyadav-dev/api-archive-hub",
+    image: api,
+    content:
+      "Developed a web application which helps users to access all the necessary API links at a one stop location with different level of API category types filteration and with the documentation details. The application also contains an API playground to test the working of APIs.",
+    stack: [
+      {
+        id: "icon-1",
+        icon: SiNextdotjs,
+        name: "Next JS"
+      },
+      {
+        id: "icon-2",
+        icon: SiTypescript,
+        name: "Typescript"
+      },
+      {
+        id: "icon-3",
+        icon: SiJavascript,
+        name: "JavaScript"
+      },
+      {
+        id: "icon-4",
+        icon: DiCss3,
+        name: "CSS"
+      },
+      {
+        id: "icon-5",
+        icon: SiMongodb,
+        name: "MongoDB"
+      },
+      {
+        id: "icon-6",
+        icon: SiVercel,
+        name: "Vercel"
+      },
+    ],
+  },
+  {
+    id: "project-7",
     title: "Screenshot to Code",
     github: "https://github.com/aryanyadav-dev/ss-to-code",
     image: vercel,
@@ -598,7 +639,32 @@ export const projects = [
     ],
   },
   {
-    id: "project-7",
+    id: "project-8",
+    title: "Computer Networks Resource Website",
+    github:"https://github.com/aryanyadav-dev/computer-networks",
+    link: "https://comp-networks.vercel.app/",
+    image: opensource,
+    content: "Developed a Computer Networks resources website made for dept study subject in Thakur College of Engineering for Computer Science Department",
+    stack: [
+      {
+        id: "icon-1",
+        icon: SiNextdotjs,
+        name: "NextJS"
+      },
+      {
+        id: "icon-2",
+        icon: SiTailwindcss,
+        name: "Tailwind CSS"
+      },
+      {
+        id: "icon-3",
+        icon: SiTypescript,
+        name: "Typescript"
+      },
+    ],
+  },
+  {
+    id: "project-9",
     title: "Spectroscopic Analysis of Celestial Objects",
     github:"https://github.com/aryanyadav-dev/celestial-spectroscopy",
     image: space,
@@ -624,31 +690,6 @@ export const projects = [
         id: "icon-4",
         icon: SiMongodb,
         name: "MongoDB"
-      },
-    ],
-  },
-  {
-    id: "project-8",
-    title: "Computer Networks Resource Website",
-    github:"https://github.com/aryanyadav-dev/computer-networks",
-    link: "https://comp-networks.vercel.app/",
-    image: opensource,
-    content: "Developed a Computer Networks resources website made for dept study subject in Thakur College of Engineering for Computer Science Department",
-    stack: [
-      {
-        id: "icon-1",
-        icon: SiNextdotjs,
-        name: "NextJS"
-      },
-      {
-        id: "icon-2",
-        icon: SiTailwindcss,
-        name: "Tailwind CSS"
-      },
-      {
-        id: "icon-3",
-        icon: SiTypescript,
-        name: "Typescript"
       },
     ],
   },
