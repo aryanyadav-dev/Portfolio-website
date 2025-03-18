@@ -11,6 +11,7 @@ import {
   sih,
   tis,
   api,
+  dock,
 } from "../assets";
 
 import {
@@ -178,11 +179,6 @@ export const skills = [
         icon: SiTypescript,
         name: "TypeScript",
       },
-      {
-        id: "pl-11",
-        icon: SiSolidity,
-        name: "Solidity",
-      }
     ],
   },
   {
@@ -519,7 +515,7 @@ export const projects = [
     github:"https://github.com/aryanyadav-dev/post-prod-filmmaking-workflow",
     image: startup,
     content:
-      "Built a comprehensive platform to manage the post-production workflow, including editing schedules, file tracking, and resource allocation.",
+      "SEQUENCE is an all-in-one workflow platform for media and production teams, streamlining project planning, task management, and real-time collaboration. It features Kanban boards, version control, metadata validation, screenwriting tools, and cloud file access. With upcoming AI-assisted editing, cloud rendering, mobile support, and third-party tool integration, it simplifies complex creative workflows for faster, smarter production.",
     stack: [
       {
         id: "icon-1",
@@ -555,6 +551,46 @@ export const projects = [
   },
   {
     id: "project-6",
+    title: "Docklet - DevOps CI/CD Platform for Mobile Apps",
+    github: "https://github.com/aryanyadav-dev/docklet-app",
+    image: dock,
+    content:
+      "Developed a container-native CI/CD web app for Android and iOS, encapsulating build, test, and release in reproducible Docker environments. Supports secure app signing, emulator testing, snapshot rollbacks, and local/cloud pipelines with matrix testing and dynamic secrets. AI integration accelerates debugging by analyzing failed builds for faster deployment and smoother production releases.",
+    stack: [
+      {
+        id: "icon-1",
+        icon: SiNextdotjs,
+        name: "Next JS"
+      },
+      {
+        id: "icon-2",
+        icon: SiTypescript,
+        name: "Typescript"
+      },
+      {
+        id: "icon-3",
+        icon: SiTailwindcss,
+        name: "TailwindCSS"
+      },
+      {
+        id: "icon-4",
+        icon: SiPrisma,
+        name: "Prisma"
+      },
+      {
+        id: "icon-5",
+        icon: SiDocker,
+        name: "Docker"
+      },
+      {
+        id: "icon-6",
+        icon: SiVercel,
+        name: "Vercel"
+      },
+    ],
+  },
+  {
+    id: "project-7",
     title: "API Archive Hub",
     github: "https://github.com/aryanyadav-dev/api-archive-hub",
     image: api,
@@ -594,7 +630,7 @@ export const projects = [
     ],
   },
   {
-    id: "project-7",
+    id: "project-8",
     title: "Screenshot to Code",
     github: "https://github.com/aryanyadav-dev/ss-to-code",
     image: vercel,
@@ -635,31 +671,6 @@ export const projects = [
         id: "icon-7",
         icon: SiTypescript,
         name: "TypeScript"
-      },
-    ],
-  },
-  {
-    id: "project-8",
-    title: "Computer Networks Resource Website",
-    github:"https://github.com/aryanyadav-dev/computer-networks",
-    link: "https://comp-networks.vercel.app/",
-    image: opensource,
-    content: "Developed a Computer Networks resources website made for dept study subject in Thakur College of Engineering for Computer Science Department",
-    stack: [
-      {
-        id: "icon-1",
-        icon: SiNextdotjs,
-        name: "NextJS"
-      },
-      {
-        id: "icon-2",
-        icon: SiTailwindcss,
-        name: "Tailwind CSS"
-      },
-      {
-        id: "icon-3",
-        icon: SiTypescript,
-        name: "Typescript"
       },
     ],
   },

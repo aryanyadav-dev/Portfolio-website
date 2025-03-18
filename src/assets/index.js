@@ -21,6 +21,7 @@ import linklace from "./linklace.png";
 import tis from "./tis.jpeg";
 import sih from "./sih.png";
 import api from "./api.png";
+import dock from "./dock.png";
 
 export {
   quotes,
@@ -46,4 +47,5 @@ export {
   tis,
   sih,
   api,
+  dock,
 };
