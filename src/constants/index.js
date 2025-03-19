@@ -19,6 +19,8 @@ import {
   AiFillLinkedin,
   AiFillMail,
   AiFillHtml5,
+  AiFillMediumSquare,
+  AiFillMediumCircle,
 } from "react-icons/ai";
 
 import {
@@ -73,7 +75,7 @@ import {
 import {DiCss3, DiDocker, DiJava, DiSqllite} from "react-icons/di";
 
 export const resumeLink = "https://drive.google.com/file/d/1nCpbwdgbjqqxTsbnhi3DXu7eO3Hqt_ur/view?usp=sharing";
-export const repoLink = "https://github.com/aryanyadav-dev/Portfolio";
+export const repoLink = "https://github.com/aryanyadav-dev/Portfolio-website";
 
 export const callToAction = "https://www.linkedin.com/in/-aryanyadav/";
 
@@ -733,6 +735,11 @@ export const socialMedia = [
     id: "social-media-3",
     icon: AiFillMail,
     link: "mailto:aryanyadav7825@gmail.com",
+  },
+  {
+    id: "social-media-4",
+    icon: AiFillMediumSquare,
+    link: "https://medium.com/@aryanyadavdev",
   },
 ];
 
